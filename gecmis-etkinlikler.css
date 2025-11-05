@@ -129,8 +129,24 @@ header a{
 
 
 
+.et_resim{
+    border-radius: 5px;
+    margin: 5px;
+    object-fit: cover;
+    object-position: center;
+    height: 300px;    
+}
 
 
+.baslik_etk{
+    font-size: 1.5em;
+    padding: 6px;
+    margin: 0px;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    text-align: center;
+
+}
 
 
 
@@ -293,10 +309,6 @@ footer{
     
     }
 
-    .etkinlik{
-    width: 180px;
-    height: 220px;
-    }
 
     #show{
         width: 80%;
@@ -304,6 +316,16 @@ footer{
         margin: 0px;
         padding: 0px;
     }
+
+    .etkinlik{
+    width: 180px;
+    height: 220px;
+    max-height: 220px;
+    }
+    .et_resim{
+    max-height: 140px;
+    }
+
 
     #tabbt{
     display: block;

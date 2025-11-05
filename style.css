@@ -248,10 +248,12 @@ hr{
     width: 300px;
     display: flex;
     flex-direction: column;
-    height: 90%;
+    height: auto;
+    max-height: 90%;
     margin: 15px;
     font-weight: bold;
     background-color: rgb(180, 187, 211);
+    justify-content: center;
 
 }
 .akademik{
@@ -487,10 +489,7 @@ footer{
     width: 90%;
     
     }
-    .etkinlik{
-    width: 180px;
-    height: 220px;
-    }
+
     .alty{
     text-align: center;
     }
@@ -502,12 +501,15 @@ footer{
     font-size: 1.1em;
     
     }
-
-    .et_resim{
-    height: 77%;
-    
-    
+    .etkinlik{
+    width: 180px;
+    height: 220px;
+    max-height: 220px;
     }
+    .et_resim{
+    max-height: 140px;
+    }
+
 
     #show{
         width: 80%;
