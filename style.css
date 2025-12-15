@@ -503,8 +503,8 @@ footer{
     }
     .etkinlik{
     width: 180px;
-    height: 220px;
-    max-height: 220px;
+    min-height: 220px;
+    max-height: auto;
     }
     .et_resim{
     max-height: 140px;
