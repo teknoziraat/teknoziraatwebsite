@@ -15,7 +15,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgb(31, 30, 88);
+    background-color: rgb(219, 80, 234);
     z-index: 10;
     height: 80px;
 
@@ -91,7 +91,7 @@ header a{
 #son_etkinlik{
     border-radius: 10px;
     text-align: left;
-    border: solid 3px rgb(31, 30, 88);
+    border: solid 3px rgb(219, 80, 234);
     background-color: rgb(242, 240, 246);
     width: 47%;
     display: flex;
@@ -128,7 +128,8 @@ header a{
     margin: 0px;
     font-weight: bold;
     color: aliceblue;
-    background-color: rgb(31, 30, 88);}
+    background-color: rgb(219, 80, 234);
+}
 
 
 #son_et_resim{
@@ -147,13 +148,13 @@ header a{
     font-size: 1.5em;
     padding: 5px;
     top: -4px;
-    color: rgb(31, 30, 88);
+    color: rgb(219, 80, 234);
     font-weight: bold;
 }
 
 
 #anaduyurular{
-    height: 96%;
+    height: auto;
     overflow-y: scroll;   
     
 }
@@ -164,7 +165,7 @@ header a{
     min-height: 400px;
     height: auto;
     text-align: left;
-    border: solid 3px rgb(31, 30, 88);
+    border: solid 3px rgb(219, 80, 234);
     background-color: rgb(242, 240, 246);
 
     width: 47%;
@@ -179,7 +180,7 @@ header a{
 .duyuru{
     height: 80px;
     margin: 8px;
-    border: solid rgb(31, 30, 88) 4px ;
+    border: solid rgb(219, 80, 234) 4px ;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -327,7 +328,7 @@ a{
 
 footer{
     color: aliceblue;
-    background-color: rgb(31, 30, 88);
+    background-color: rgb(219, 80, 234);
     height: 300px;
 
 }
@@ -410,7 +411,7 @@ footer{
   right: 0;
   width: 250px;
   height: 100%;
-  background: rgb(31, 30, 88);
+    background-color: rgb(219, 80, 234);
   color: white;
   padding: 20px;
   box-shadow: -2px 0 5px rgba(0,0,0,0.3);
