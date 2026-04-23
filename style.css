@@ -78,7 +78,7 @@ header a{
 
 
 #ana0 {
-    height: 560px;
+    height: auto;
     display: flex;
     flex-direction: row;
     margin-top: 140px;
