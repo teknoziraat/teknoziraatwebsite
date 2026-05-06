@@ -160,11 +160,10 @@ header a{
 #kont{
     border-radius: 10px;
     min-height: 400px;
-    height: auto;
+    height: 700px;
     text-align: left;
     border: solid 3px rgb(31, 30, 88);
     background-color: rgb(242, 240, 246);
-
     width: 47%;
     display: flex;
     flex-direction: column;
